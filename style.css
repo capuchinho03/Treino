@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.navbar{
+    height: 50px;
+    width: 100%;
+    margin-left: 5px;
+}
+
+.botoes{
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.botao{
+    width: 80px;
+    height: 25px;
+    border-radius: 10px;
+}
