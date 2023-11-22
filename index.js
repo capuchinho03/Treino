@@ -13,3 +13,7 @@ function costas() {
 function legday() {
     window.location.href = "legDay.html"
 }
+
+function voltar() {
+    window.location.href = "index.html"
+}

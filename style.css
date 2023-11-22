@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     text-decoration: none;
+    background-color: #b8b8b8;
 }
 
 .navbar{
@@ -21,4 +22,43 @@ body{
     width: 80px;
     height: 25px;
     border-radius: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: 450px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 4px, 4px, 12px gray;
+    border-radius: 12px;
+    
+}
+
+.card img {
+    width: 300px;
+    height: 280px;
+}
+
+.descricao {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    font-size: 23px;
+}
+
+.menu {
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+    align-items: center;
+}
+
+.menu button {
+    height: 25px;
+    border: none;
+    background: none;
 }
